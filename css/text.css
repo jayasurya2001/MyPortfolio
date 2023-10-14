@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-primary: rgb(0, 0, 0);
+    --color-text: rgb(255, 164, 27);
+    --color-hover: rgb(248, 111, 3);
+    --color-secondary: rgb(40, 42, 58);
+}
+.about_image{
+    display: flex;
+    flex-direction: row;
+    margin-left: 9%;
+    gap: 2.5rem;
+}
+.content{
+    margin-top: -25px; 
+}
+.content h2{
+    text-align: center;
+    color: var(--color-hover);
+    text-decoration: underline;
+}
+.content p{
+    color: var(--color-text);
+    margin: 0 7%;
+    text-align: justify;
+    line-height: 1.5rem;
+    letter-spacing: .2px;
+    font-size: 15.9px;
+    margin-bottom: 4px;
+}
+#profile{
+    margin-top: -10px;
+    width: 340px;
+    height: 300px;
+    border-radius: 10%;
+    filter: brightness(75%);
+    filter: drop-shadow(0px 0px 8px var(--color-hover));
+}
+.content p::first-letter{
+    color: var(--color-hover);
+    font-size: 24px;
+}
+.education h2{
+    color: var(--color-hover);
+    text-align: center;
+    margin-top: -20px;
+    text-decoration: underline;
+}
+.education table tr th{
+    color: var(--color-hover);
+    text-align: left;
+    width: 25%;
+    padding-left: 9%;
+    padding-top: 30px;
+    font-size: 18px;
+}
+.education table tr td{
+    color: var(--color-text);
+    padding-top: 30px;
+    width: 25%;
+    line-height: 26px;
+    font-size: 18px;
+}
+.dbms, .mad, .iot{
+    display: flex;
+    flex-direction: row;
+    margin: 0 30px;
+}
+
+.dbms div, .mad div, .iot div{
+    color: var(--color-hover);
+    font-size: 13px;
+}
+.dbms ul, .mad ul, .iot ul{
+    color: var(--color-text);
+    line-height: 1.5rem;
+}
+#project{
+    margin-top: -30px;
+    text-align: center;
+    color: var(--color-hover);
+    text-decoration: underline;
+}
+footer a svg g:hover{
+    fill: var(--color-text);
+}
+footer a:any-link{
+    color:  transparent;
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+}
+#cont{
+    color: var(--color-hover);
+    text-align: center;
+    margin-top: -40px;
+    text-decoration: underline;
+}
+label{
+    color: var(--color-text);
+    font-size: 22px;
+}
+input{
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    background-color: transparent;
+    border: 3px double grey;
+    border-radius: 3px;
+    color: var(--color-text);
+}
+input:default{
+    background-color: transparent;
+}
+#message{
+    margin-top: 10px;
+    resize: none;
+    height: 55px;
+    background-color: transparent;
+    border: 3px double grey;
+    border-radius: 3px;
+    color: var(--color-text);
+}
+form{
+    margin-left: 2%;
+    display: flex;
+    gap: 12rem;
+}
+footer{
+    margin-top: 8px;
+    background-color: rgb(39, 38, 38);
+    height: 52px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px double;
+}
+svg{
+    height: 30px;
+    margin-top: 0.5%;
+    margin-left: 1.5%;
+}
+
+footer span{
+    position: absolute;
+    color: var(--color-text);
+    margin-left: 20px;
+}
+.certificate{
+    margin-left: 10%;
+}
+.certificate table tr th{
+    text-align: left;
+}
+#cert{
+    margin-top: -20px;
+    text-align: center;
+    color: var(--color-hover);
+    text-decoration: underline;
+}
+td a:any-link{
+    color: var(--color-text);
+    font-weight: bold;
+}
+td a:hover{
+    color: var(--color-hover);
+    font-weight: bold;
+}
